@@ -25,6 +25,16 @@ class GPTConnector:
    def reset(self, user_id):
        if user_id in self.conversations:
            self.conversations[user_id] = []
+           
+   def update_api_key(self):
+       load_dotenv(override=True)
+       new_api_key = os.getenv("OPENAI_API_KEY")
+       self.client = OpenAI(api_key=new_api_key)
+       
+       if not new_api_key:
+           print("WARNING: OPENAI_API_KEY not found in environment variables!")
+       else:
+           print("API key has been updated")
 
    def chat(self, user_id, user_input, system_prompt):
        try:
