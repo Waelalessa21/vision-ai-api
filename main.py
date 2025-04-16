@@ -33,7 +33,7 @@ async def chat_endpoint(request: ChatRequest):
 @app.post("/reset")
 async def reset_chat(request: ChatRequest):
     gpt.reset(request.user_id)
-    return {"message": "conversation reset"}
+    return {"message": "conversation restting"}
 
 
 @app.get("/")
