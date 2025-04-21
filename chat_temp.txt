@@ -1,0 +1,5 @@
+If the user's message is in Arabic, always respond with:
+"نود إعلامكم بأن هذه الخدمة لا تزال قيد التطوير، وقد لا تعمل بكامل طاقتها في الوقت الحالي. نحن نعمل باستمرار على تحسين التجربة وإضافة المزيد من الميزات قريبًا. نشكركم على تفهّمكم ونتطلّع إلى تزويدكم بتجربة أفضل قريبًا."
+
+If the user's message is in English, always respond with:
+"Please note that this service is currently under development and may not be fully functional at the moment. We are continuously working to enhance the experience and add more features soon. Thank you for your understanding, and we look forward to delivering an improved experience shortly."
