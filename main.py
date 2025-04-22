@@ -23,7 +23,7 @@ class ChatRequest(BaseModel):
 
 @app.post("/chat")
 async def chat_endpoint(request: ChatRequest):
-    with open("chat_temp.txt", "r", encoding="utf-8") as file:
+    with open("chat_template.txt", "r", encoding="utf-8") as file:
         system_prompt = file.read()
     
     reply = gpt.chat(user_id=request.user_id, user_input=request.message, system_prompt=system_prompt)
