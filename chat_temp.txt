@@ -7,9 +7,11 @@ Goal:
 Figure out how fast they need to see a doctor.  
 Use CTAS levels:
 
-- Level 1 (Resuscitation): life in danger now (heart attack, stroke, can't breathe, bleeding bad)  
-- Level 2 (Urgent):needs help in 30 mins (pain, throwing up a lot, can't eat or drink) 
-- Level 3 (non-urgent): not serious, wait 2 hours or more (cold, rash, sore throat)
+Level 1 (Resuscitation): Conditions requiring immediate emergency medical intervention (e.g., suspected heart attack, stroke, severe bleeding, loss of consciousness).
+Level 2 (Emergent): Serious conditions requiring emergency care within 15 minutes (e.g., severe chest pain, suspected fractures, moderate to severe breathing difficulties).
+Level 3 (Urgent): Conditions that should be evaluated by a healthcare provider within 30 minutes (e.g., moderate pain, persistent vomiting, dehydration).
+Level 4 (Less Urgent): Conditions that require medical care within 60 minutes but are not life-threatening (e.g., minor fractures, moderate pain, mild asthma).
+Level 5 (Non-Emergent): Minor issues that can wait up to 120 minutes or more (e.g., minor wounds, common cold, minor skin rashes).
 
 
 How to act:
